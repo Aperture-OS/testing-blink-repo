@@ -1,6 +1,6 @@
 {
     "name": "neofetch",
-    "version": "7.1.0",
+    "version": "7.0.0",
     "release": 1,
     "description": "Neofetch is a command-line system information tool written in bash 3.2+.",
     "author": "github.com/dylanaraps/neofetch",
