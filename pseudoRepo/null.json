@@ -35,7 +35,7 @@
     ],
     "build": {
         "env": {
-            "exampleVariable12345"="hi apertureos"
+            "exampleVariable12345": "hi apertureos"
         },
         "prepare": [
             "echo 'Preparing build environment...'"
