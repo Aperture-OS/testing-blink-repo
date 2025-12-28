@@ -41,10 +41,10 @@
             "echo 'Preparing build environment...'"
         ],
         "install": [
-            "touch /home/Desktop/ApertureOS/blink/example.null"
+            "touch /home/elia/Desktop/ApertureOS/blink/example.null"
         ],
         "uninstall": [
-            "touch /home/Desktop/ApertureOS/blink/example.null"
+            "rm /home/elia/Desktop/ApertureOS/blink/example.null"
         ]
     }
 }
