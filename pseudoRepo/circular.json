@@ -11,7 +11,6 @@
         "type": "tar.gz"
     },
     "dependencies": {
-		"neofetch": ">=7.1.0"
 	},
     "opt_dependencies": [],
     "build": {
