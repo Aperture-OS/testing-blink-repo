@@ -11,14 +11,7 @@
         "type": "tar.gz"
     },
     "dependencies": {},
-    "opt_dependencies": [
-        {
-            "id": 1,
-            "description": "test null2.",
-            "options": [
-            ]
-        }
-    ],
+    "opt_dependencies": [],
     "build": {
 		"type": "toCompile",
         "env": {
