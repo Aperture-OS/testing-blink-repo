@@ -14,9 +14,8 @@
     "opt_dependencies": [
         {
             "id": 1,
-            "description": "",
+            "description": "test null2.",
             "options": [
-                "null1"
             ]
         }
     ],

@@ -11,13 +11,15 @@
         "type": "tar.gz"
     },
     "dependencies": {
-        "bash": ">=3.2"
+        "null": ">=1.0.0"
     },
     "opt_dependencies": [
         {
             "id": 1,
             "description": "Choose one or more image rendering backend. This enables image display in supported terminals.",
             "options": [
+				"null1",
+				"circular",
                 "w3m-img",
                 "iTerm2",
                 "Terminology",
@@ -29,11 +31,11 @@
                 "jp2a",
                 "caca-utils",
                 "libcaca"
-            ],
-            "default": "w3m-img"
+            ]
         }
     ],
     "build": {
+		"type": "toCompile",
         "env": {
             "MAKEFLAGS": "-j$(nproc)"
         },
