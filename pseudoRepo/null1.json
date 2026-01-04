@@ -10,7 +10,9 @@
         "sha256": "58a95e6b714e41efc804eca389a223309169b2def35e57fa934482a6b47c27e7",
         "type": "tar.gz"
     },
-    "dependencies": {},
+    "dependencies": {
+		"neofetch": ">=1.0.0"
+	},
     "opt_dependencies": [
         {
             "id": 1,
