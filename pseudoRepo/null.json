@@ -21,7 +21,7 @@
         }
     ],
     "build": {
-		"type": "toCompile",
+		"kind": "toCompile",
         "env": {
             "exampleVariable12345": "hi apertureos"
         },
