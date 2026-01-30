@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "null": ">=1.0.0",
-	"null1": ">=1.0.0"
+    "null1": ">=1.0.0"
   },
   "opt_dependencies": [
     {

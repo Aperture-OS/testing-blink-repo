@@ -1,32 +1,26 @@
 {
-    "name": "circular",
-    "version": "1.0.0",
-    "release": 1766873182,
-    "description": "Null is a test recipe that makes a file, its purpose is none :D",
-    "author": "github.com/Aperture-OS/blink-package-manager",
-    "license": "The Unlicense",
-    "source": {
-        "url": "https://github.com/dylanaraps/neofetch/archive/refs/tags/7.1.0.tar.gz",
-        "sha256": "58a95e6b714e41efc804eca389a223309169b2def35e57fa934482a6b47c27e7",
-        "type": "tar.gz"
+  "name": "circular",
+  "version": "1.0.0",
+  "release": 1766873182,
+  "description": "Null is a test recipe that makes a file, its purpose is none :D",
+  "author": "github.com/Aperture-OS/blink-package-manager",
+  "license": "The Unlicense",
+  "source": {
+    "url": "https://github.com/dylanaraps/neofetch/archive/refs/tags/7.1.0.tar.gz",
+    "sha256": "58a95e6b714e41efc804eca389a223309169b2def35e57fa934482a6b47c27e7",
+    "type": "tar.gz"
+  },
+  "dependencies": {
+    "neofetch": ">=7.1.0"
+  },
+  "opt_dependencies": [],
+  "build": {
+    "kind": "toCompile",
+    "env": {
+      "exampleVariable12345": "hi apertureos"
     },
-    "dependencies": {
-		"neofetch": ">=7.1.0"
-	},
-    "opt_dependencies": [],
-    "build": {
-		"kind": "toCompile",
-        "env": {
-            "exampleVariable12345": "hi apertureos"
-        },
-        "prepare": [
-            "#nothing here"
-        ],
-        "install": [
-            "touch /home/elia/Desktop/ApertureOS/blink/circular.null"
-        ],
-        "uninstall": [
-            "rm /home/elia/Desktop/ApertureOS/blink/circular.null"
-        ]
-    }
+    "prepare": ["#nothing here"],
+    "install": ["touch /home/elia/Desktop/ApertureOS/blink/circular.null"],
+    "uninstall": ["rm /home/elia/Desktop/ApertureOS/blink/circular.null"]
+  }
 }
