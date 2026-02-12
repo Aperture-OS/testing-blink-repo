@@ -20,7 +20,7 @@
       "exampleVariable12345": "hi apertureos"
     },
     "prepare": ["#nothing here"],
-    "install": ["touch /home/elia/Desktop/ApertureOS/blink/circular.null"],
-    "uninstall": ["rm /home/elia/Desktop/ApertureOS/blink/circular.null"]
+    "install": ["touch ~/Desktop/blink/circular-if-you-see-this-blink-is-broken.null"],
+    "uninstall": ["rm ~/Desktop/blink/circular-if-you-see-this-blink-is-broken.null"]
   }
 }
