@@ -25,8 +25,8 @@
     },
     "prepare": ["#nothing here"],
     "install": [
-      "touch /home/elia/Desktop/ApertureOS/blink/null1installed.null"
+      "touch ~/Desktop/null1installed.null"
     ],
-    "uninstall": ["rm /home/elia/Desktop/ApertureOS/blink/null1installed.null"]
+    "uninstall": ["rm ~/Desktop/null1installed.null"]
   }
 }
