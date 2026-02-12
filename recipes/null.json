@@ -24,7 +24,7 @@
       "exampleVariable12345": "hi apertureos"
     },
     "prepare": ["#nothing here"],
-    "install": ["touch /home/elia/Desktop/ApertureOS/blink/nullinstalled.null"],
-    "uninstall": ["rm /home/elia/Desktop/ApertureOS/blink/nullinstalled.null"]
+    "install": ["touch ~/Desktop/nullinstalled.blinkpm"],
+    "uninstall": ["rm ~/Desktop/nullinstalled.blinkpm"]
   }
 }
