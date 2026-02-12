@@ -21,10 +21,10 @@
             "#nothing here"
         ],
         "install": [
-            "touch /home/elia/Desktop/ApertureOS/blink/null2installed.null"
+            "touch $HOME/Desktop/ApertureOS/blink/null2installed.null"
         ],
         "uninstall": [
-            "rm /home/elia/Desktop/ApertureOS/blink/null2installed.null"
+            "rm $HOME/Desktop/ApertureOS/blink/null2installed.null"
         ]
     }
 }
