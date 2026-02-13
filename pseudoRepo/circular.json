@@ -23,10 +23,10 @@
             "#nothing here"
         ],
         "install": [
-            "touch /home/elia/Desktop/ApertureOS/blink/circular.null"
+            "touch $HOME/Desktop/ApertureOS/blink/circular.null"
         ],
         "uninstall": [
-            "rm /home/elia/Desktop/ApertureOS/blink/circular.null"
+            "rm $HOME/Desktop/ApertureOS/blink/circular.null"
         ]
     }
 }
